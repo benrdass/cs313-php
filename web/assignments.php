@@ -33,7 +33,7 @@
         <div class="row">
           <div class="col-md-6 col-sm-6">
             <div class="info-left">
-              <a href=""><button class="well col-md-12">Coming soon</button></a>
+              <a href="week03\browse.php"><button class="well col-md-12">Cart</button></a>
             </div>
           </div>
           <div class="col-md-6 col-sm-6">
