@@ -23,7 +23,7 @@ $bank_infos = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <title>Accounts</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/simple-sidebar.css" rel="stylesheet">
