@@ -1,0 +1,49 @@
+
+#listofitems {
+  display:flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+}
+
+.namePic {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+#addressInfo {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  /* word-wrap: normal; */
+  /* text-align: center; */
+  text-align:right;
+  margin:auto;
+}
+#confirmation {
+  display:flex;
+  flex-direction: column;
+  background-color: green;
+  text-align: center;
+  font-size: 24px;
+}
+
+.namePic img {
+  width: 150px;
+  height: auto;
+}
+#viewcart {
+  text-align:center;
+}
+#viewcartitems {
+  display:flex;
+  flex-direction: column;
+  width: 400px;
+  text-align: left;
+  margin: auto;
+}
+.item {
+  display: flex;
+  justify-content: space-evenly;
+  border-style: ridge;
+}

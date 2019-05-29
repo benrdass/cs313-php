@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Benjamin Dass</title>
+    <title>Assignments</title>
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto%7CJosefin+Sans:100,300,400,500" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
@@ -22,42 +22,70 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="assignments.php">Assignments</a></li>
+            <li><a href="#assignments.php">Assignments</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
 
-    <section id="showcase">
+    <section id="info2">
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-sm-6">
-            <div class="showcase-left">
-              <img src="image1.jpg">
+            <div class="info-left">
+              <a href="week03\browse.php"><button class="well col-md-12">Cart</button></a>
             </div>
           </div>
           <div class="col-md-6 col-sm-6">
-            <div class="showcase-right">
-              <h1>Hey everyone!</h1>
-              <p>My name is Benjamin Dass. I am a computer science major and I love learning new things. I'm originally from Malaysia. I come from a family of 7: a set
-              of parents, four of us brothers and a Rotweiller.</p>
-
-              <?php
-              	echo "Today's date is " . date("d-m-Y") . "<br>";
-              ?>
-
+            <div class="info-right">
+              <button class="well col-md-12">Coming soon</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-6">
+            <div class="info-left">
+              <button class="well col-md-12">Coming soon</button>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="info-right">
+              <button class="well col-md-12">Coming soon</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-6">
+            <div class="info-left">
+              <button class="well col-md-12">Coming soon</button>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="info-right">
+              <button class="well col-md-12">Coming soon</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-6">
+            <div class="info-left">
+              <button class="well col-md-12">Coming soon</button>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="info-right">
+              <button class="well col-md-12">Coming soon</button>
             </div>
           </div>
         </div>
       </div>
     </section>
-
-    <footer id="testimonial">
-      <div class="container">
-        <p>"It is not necessary to do extraordinary things to get extraordinary results."</p>
-        <p class="customer">- Warren Buffett</p>
-      </div>
-    </footer>
 
     <script
   src="https://code.jquery.com/jquery-3.2.1.js"
@@ -80,6 +108,18 @@
           duration: 2000,
           origin:'right',
           distance:'300px'
+        });
+        sr.reveal('.info-left', {
+          duration: 2000,
+          origin:'left',
+          distance:'300px',
+          viewFactor: 0.2
+        });
+        sr.reveal('.info-right', {
+          duration: 2000,
+          origin:'right',
+          distance:'300px',
+          viewFactor: 0.2
         });
     </script>
 
