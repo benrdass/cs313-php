@@ -1,4 +1,6 @@
 <?php
+ob_start();
+
 //echo "alert('err 1')";
 $name = $_POST['txtName'];
 $username = $_POST['txtUser'];
@@ -27,7 +29,7 @@ $statement->bindValue(':username', $username);
 
 //echo "alert('err 5')";
 $statement->bindValue(':password', $hashedPassword);
-echo "alert('err 6')";
+//echo "alert('err 6')";
 $statement->execute();
 
 //echo "alert('err 7')";
