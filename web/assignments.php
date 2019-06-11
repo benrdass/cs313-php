@@ -38,7 +38,7 @@
           </div>
           <div class="col-md-6 col-sm-6">
             <div class="info-right">
-            <a href="week07\index.php"><button class="well col-md-12">Finance</button></a>
+            <a href="week07\create_signin\signIn.php"><button class="well col-md-12">Finance</button></a>
             </div>
           </div>
         </div>
