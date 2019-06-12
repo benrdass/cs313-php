@@ -32,7 +32,7 @@
     <div id="wrapper">
 
         <!-- Sidebar -->
-        <div id="sidebar-wrapper">
+        <div>
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
                     <a href="#">
