@@ -42,7 +42,7 @@ $bank_infos = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
     <div id="wrapper">
 
-        <!-- Sidebar --
+        <!-- Sidebar -->
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
