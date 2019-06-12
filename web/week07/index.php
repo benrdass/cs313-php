@@ -68,6 +68,30 @@ $bank_infos = $stmt->fetchAll(PDO::FETCH_ASSOC);
             </ul>
         </div>
          /#sidebar-wrapper -->
+         <div>
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        Accounts and Settings
+                    </a>
+                </li>
+                 <li>
+                    <a href="index.php">Summary of Accounts</a>
+                </li>
+                <li>
+                    <a href="account1.php">Add an entry</a>
+                </li>
+                <li>
+                    <a href="settings.php">Settings</a>
+                </li>
+                <li>
+                    <a href="faq.php">FAQ</a>
+                </li>
+                <li>
+                    <a href="help.php">Help</a>
+                </li>
+            </ul>
+        </div>
 
         <!-- Page Content -->
         <div id="page-content-wrapper">
